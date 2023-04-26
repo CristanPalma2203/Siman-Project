@@ -1,0 +1,33 @@
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\bin\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\bin\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\obj\Debug\Infra.EmailServices.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\obj\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.EmailServices\obj\Debug\Infra.EmailServices.pdb

@@ -1,0 +1,24 @@
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.Common\obj\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\obj\Debug\Infra.Common.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\obj\Debug\Infra.Common.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\obj\Debug\Infra.Common.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\obj\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.Common\obj\Debug\Infra.Common.pdb

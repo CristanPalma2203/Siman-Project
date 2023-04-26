@@ -1,0 +1,33 @@
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Infra.DataAccess\obj\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\bin\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\bin\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\obj\Debug\Infra.DataAccess.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\obj\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\obj\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Infra.DataAccess\bin\Debug\FontAwesome.Sharp.dll

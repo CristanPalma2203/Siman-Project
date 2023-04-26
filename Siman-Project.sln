@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UserInterface", "1.UserInterface", "{32F50CD1-BBDF-4F4E-9C82-0EA5425575FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{5369A191-D89A-4AD2-A034-463664F35521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{D666CFD2-E208-4FD1-8478-0B0AF1ABCA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.WinForm", "UI.WinForm\UI.WinForm.csproj", "{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Models", "Domain.Models\Domain.Models.csproj", "{02135858-8E80-4C97-99B5-ECDC06154EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.DataAccess", "Infra.DataAccess\Infra.DataAccess.csproj", "{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.EmailServices", "Infra.EmailServices\Infra.EmailServices.csproj", "{506992EA-02DA-44CB-883A-F24656E3FDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Common", "Infra.Common\Infra.Common.csproj", "{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.ValueObjects", "Domain.ValueObjects\Domain.ValueObjects.csproj", "{C7E9FA6D-E3D2-4448-983C-A1E620883A49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02135858-8E80-4C97-99B5-ECDC06154EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02135858-8E80-4C97-99B5-ECDC06154EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02135858-8E80-4C97-99B5-ECDC06154EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02135858-8E80-4C97-99B5-ECDC06154EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506992EA-02DA-44CB-883A-F24656E3FDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506992EA-02DA-44CB-883A-F24656E3FDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506992EA-02DA-44CB-883A-F24656E3FDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506992EA-02DA-44CB-883A-F24656E3FDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E9FA6D-E3D2-4448-983C-A1E620883A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E9FA6D-E3D2-4448-983C-A1E620883A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E9FA6D-E3D2-4448-983C-A1E620883A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E9FA6D-E3D2-4448-983C-A1E620883A49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F7FDB36-9179-49C1-B604-2AC4BFE3ACBB} = {32F50CD1-BBDF-4F4E-9C82-0EA5425575FF}
+		{02135858-8E80-4C97-99B5-ECDC06154EF5} = {5369A191-D89A-4AD2-A034-463664F35521}
+		{C7E9FA6D-E3D2-4448-983C-A1E620883A49} = {5369A191-D89A-4AD2-A034-463664F35521}
+		{C63ADCA1-EEE3-4BCE-8B0C-3A697B1A5158} = {D666CFD2-E208-4FD1-8478-0B0AF1ABCA45}
+		{506992EA-02DA-44CB-883A-F24656E3FDC0} = {D666CFD2-E208-4FD1-8478-0B0AF1ABCA45}
+		{30C5BB95-A19B-43A8-B6F7-ECBBF35BEB2C} = {D666CFD2-E208-4FD1-8478-0B0AF1ABCA45}
+	EndGlobalSection
+EndGlobal

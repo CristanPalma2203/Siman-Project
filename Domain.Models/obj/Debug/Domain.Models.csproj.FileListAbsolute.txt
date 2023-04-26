@@ -1,0 +1,57 @@
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.Models.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\bin\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.Models\obj\Debug\Domain.Models.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Domain.Models.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Domain.Models.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.DataAccess.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.EmailServices.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.DataAccess.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\Infra.EmailServices.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\obj\Debug\Domain.Models.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\obj\Debug\Domain.Models.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\obj\Debug\Domain.Models.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\obj\Debug\Domain.Models.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\obj\Debug\Domain.Models.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.Models\bin\Debug\FontAwesome.Sharp.dll

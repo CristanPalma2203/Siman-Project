@@ -1,0 +1,33 @@
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Source Code for Sale\Complete Login Project- Nivel Avanzado\Full Login Project-C-Sharp SQL Server\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\CS-FullLogin_CRUD_SQL-AL\Español\LayeredFullLogin-CS-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\bin\Debug\Infra.Common.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\bin\Debug\Infra.Common.pdb
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+C:\Users\Alex Palma\Desktop\Siman-Project\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb
