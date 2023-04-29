@@ -36,7 +36,7 @@ namespace UI.WinForm.Base
 
           
            titleBar.Size = new System.Drawing.Size(300,40);
-           titleBar.BackColor = Color.RoyalBlue;
+           titleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
            titleBar.Dock = DockStyle.Top;
            titleBar.Controls.Add(btnClose);
            titleBar.Controls.Add(lblTitle);

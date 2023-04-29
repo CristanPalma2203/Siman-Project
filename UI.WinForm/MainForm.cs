@@ -78,10 +78,10 @@ namespace UI.WinForm
 
                     break;
                 case Positions.AdministrativeAssistant:
-                    btnReports.Enabled = false;
+
                     break;
                 case Positions.Receptionist:
-                    btnReports.Enabled = false;
+
                     Paciente.Enabled = false;
                     break;
                 case Positions.HMR:
@@ -223,7 +223,7 @@ namespace UI.WinForm
 
         private void ActivateButton(Button menuButton)
         {
-            menuButton.ForeColor = Color.RoyalBlue;
+            menuButton.ForeColor = Color.WhiteSmoke;
             //menuButton.BackColor = panelMenuHeader.BackColor;
         }
         private void DeactivateButton(Button menuButton)

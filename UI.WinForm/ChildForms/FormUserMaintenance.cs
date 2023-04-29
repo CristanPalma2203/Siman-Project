@@ -74,7 +74,7 @@ namespace UI.WinForm.ChildForms
             {
                 case TransactionAction.View:
                     LastRecord = null;
-                    this.TitleBarColor = Color.MediumSlateBlue;
+                    this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     lblTitle.Text = "Detalles de usuario";
                     lblTitle.ForeColor = Color.MediumSlateBlue;
                     btnSave.Visible = false;
@@ -90,7 +90,7 @@ namespace UI.WinForm.ChildForms
                     break;
 
                 case TransactionAction.Add:
-                    this.TitleBarColor = Color.SeaGreen;
+                    this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     lblTitle.Text = "Agregar usuario";
                     lblTitle.ForeColor = Color.SeaGreen;
                     btnSave.BackColor = Color.SeaGreen;
@@ -100,7 +100,7 @@ namespace UI.WinForm.ChildForms
                     break;
 
                 case TransactionAction.Edit:
-                    this.TitleBarColor = Color.RoyalBlue;
+                    this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     lblTitle.Text = "Editar usuario";
                     lblTitle.ForeColor = Color.RoyalBlue;
                     btnSave.BackColor = Color.RoyalBlue;
@@ -110,11 +110,11 @@ namespace UI.WinForm.ChildForms
                     break;
 
                 case TransactionAction.Remove:
-                    this.TitleBarColor = Color.IndianRed;
+                    this.TitleBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     lblTitle.Text = "Eliminar usuario";
                     lblTitle.ForeColor = Color.IndianRed;
                     btnSave.Text = "Eliminar";
-                    btnSave.BackColor = Color.IndianRed;
+                    btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     panelAddedControl.Visible = false;
                     lblCurrentPass.Visible = false;
                     txtCurrentPass.Visible = false;
@@ -122,10 +122,10 @@ namespace UI.WinForm.ChildForms
                     break;
 
                 case TransactionAction.Special:
-                    this.TitleBarColor = Color.RoyalBlue;
+                    this.TitleBarColor =System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     lblTitle.Text = "Actualizar mi perfil de usuario";
                     lblTitle.ForeColor = Color.RoyalBlue;
-                    btnSave.BackColor = Color.RoyalBlue;
+                    btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
                     panelAddedControl.Visible = false;
                     lblPassword.Text = "Contraseña nueva";
 					cmbPosition.Enabled = false;
@@ -387,7 +387,7 @@ namespace UI.WinForm.ChildForms
 
             listOperation = TransactionAction.Add;
             btnAddUser.Text = "Agregar";
-            btnAddUser.BackColor = Color.CornflowerBlue;
+            btnAddUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));;
         }
         private void ReadOnlyFields()
         {//Convertir los campos del formulario en solo lectura.
@@ -488,7 +488,7 @@ namespace UI.WinForm.ChildForms
                 FillFields(userViewModel);
                 listOperation = TransactionAction.Edit;
                 btnAddUser.Text = "Actualizar";
-                btnAddUser.BackColor = Color.MediumSlateBlue;
+                btnAddUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
             }
         }
 

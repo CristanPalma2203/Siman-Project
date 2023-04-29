@@ -27,10 +27,10 @@ namespace Infra.EmailServices
         {
             //Aquí realice las configuraciones  del Protocolo simple de transferencia de correo (SMTP)
 
-            public const string Address = "VitalClinicSystem@gmail.com";//Establece la dirección del correo servidor remitente(Aquí coloque el correo electrónico responsable de enviar los correos electrónicos).
-            public const string Password = "@admin123";//Establece la contraseña del correo servidor remitente(Aquí coloque la contraseña del correo que estableciste en la linea anterior).
-            public const string DisplayName = "Vital Clinic";//Establece el nombre para mostrar cuando se envia un mensaje de correo.
-            public const string Host = "smtp.gmail.com";//Establece el nombre o la dirección IP del host para las transacciones SMTP.
+            public const string Address = "2508782019@mail.utec.edu.sv";//Establece la dirección del correo servidor remitente(Aquí coloque el correo electrónico responsable de enviar los correos electrónicos).
+            public const string Password = "123Facil365";//Establece la contraseña del correo servidor remitente(Aquí coloque la contraseña del correo que estableciste en la linea anterior).
+            public const string DisplayName = "PALMA MOLINA CRISTIAN ALEXANDER";//Establece el nombre para mostrar cuando se envia un mensaje de correo.
+            public const string Host = "smtp.office365.com";//Establece el nombre o la dirección IP del host para las transacciones SMTP.
             public const int Port = 587;//Establece el puerto utilizado para las transacciones SMTP.
             public const bool SSL = true;//Establece si el cliente SMTP utiliza Secure Sockets Layer (SSL) para cifrar la conexión.
         };
@@ -41,6 +41,7 @@ namespace Infra.EmailServices
         public EmailService()
         {
             smtpClient = new SmtpClient();//Inicializar cliente SMTP.
+            smtpClient.UseDefaultCredentials = false;
             smtpClient.Credentials = new NetworkCredential(MailServer.Address, MailServer.Password);//Establecer las credenciales (Usuario y contraseña).
             smtpClient.Host = MailServer.Host;//Establecer el host.
             smtpClient.Port = MailServer.Port;//Establecer el puerto.
@@ -56,8 +57,7 @@ namespace Infra.EmailServices
             var mailMessage = new MailMessage();//Inicializar el objeto mensaje de correo.
             var mailSender = new MailAddress(MailServer.Address, MailServer.DisplayName);//Inicializar el objeto dirección de correo electrónico remitente.
 
-            try
-            {
+           
                 mailMessage.From = mailSender;//Establecer la dirección de correo remitente.
                 mailMessage.To.Add(recipient);//Establecer y agregar la dirección de correo destinatario.
                 mailMessage.Subject = subject;//Establecer el asunto del mensaje de correo.
@@ -65,15 +65,11 @@ namespace Infra.EmailServices
                 mailMessage.Priority = MailPriority.Normal;//Establecer la prioridad del mensaje de correo.
 
                 smtpClient.Send(mailMessage);//Enviar el mensaje de correo mediante el cliente SMTP(Protocolo simple de transferencia de correo)
-            }
-            catch (SmtpException ex)
-            {
-                throw new ArgumentException(ex.Message);
-            }
-            finally
-            {
-                mailMessage.Dispose();               
-            }
+            
+            
+         
+            
+           
         }
         public void Send(List<string> recipients, string subject, string body)
         {//Este método es responsable de enviar un mensaje de correo a varios destinatarios.

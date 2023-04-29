@@ -37,7 +37,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.Salir = new FontAwesome.Sharp.IconButton();
-            this.btnReports = new FontAwesome.Sharp.IconButton();
             this.Paciente = new FontAwesome.Sharp.IconButton();
             this.panelMenuHeader = new System.Windows.Forms.Panel();
             this.lblLastName = new System.Windows.Forms.Label();
@@ -144,7 +143,6 @@
             // 
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
             this.panelSideMenu.Controls.Add(this.Salir);
-            this.panelSideMenu.Controls.Add(this.btnReports);
             this.panelSideMenu.Controls.Add(this.Paciente);
             this.panelSideMenu.Controls.Add(this.panelMenuHeader);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -181,35 +179,6 @@
             this.Salir.UseVisualStyleBackColor = false;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
             // 
-            // btnReports
-            // 
-            this.btnReports.BackColor = System.Drawing.Color.Transparent;
-            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReports.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReports.FlatAppearance.BorderSize = 0;
-            this.btnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnReports.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
-            this.btnReports.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReports.IconSize = 50;
-            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.Location = new System.Drawing.Point(0, 182);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnReports.Rotation = 0D;
-            this.btnReports.Size = new System.Drawing.Size(208, 60);
-            this.btnReports.TabIndex = 27;
-            this.btnReports.Text = "Reportes";
-            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReports.UseVisualStyleBackColor = false;
-            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
-            // 
             // Paciente
             // 
             this.Paciente.BackColor = System.Drawing.Color.Transparent;
@@ -233,7 +202,7 @@
             this.Paciente.Rotation = 0D;
             this.Paciente.Size = new System.Drawing.Size(208, 60);
             this.Paciente.TabIndex = 26;
-            this.Paciente.Text = "Paciente";
+            this.Paciente.Text = "Usuarios";
             this.Paciente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Paciente.UseVisualStyleBackColor = false;
             this.Paciente.Click += new System.EventHandler(this.btnUsers_Click);
@@ -453,7 +422,6 @@
         internal System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Timer HoraFecha;
-        private FontAwesome.Sharp.IconButton btnReports;
         private FontAwesome.Sharp.IconButton Paciente;
         private FontAwesome.Sharp.IconButton Salir;
         private System.Windows.Forms.Panel panelDesktopHeader;
