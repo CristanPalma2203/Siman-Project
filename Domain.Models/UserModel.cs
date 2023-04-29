@@ -151,7 +151,7 @@ namespace Domain.Models
 
         }
         public UserModel RecoverPassword(string requestingUser)
-        {//Método para recupear la contraseña del usuario y enviarlo a su dirección de correo.
+        {//Método para recuperar la contraseña del usuario y enviarlo a su dirección de correo.
            var userModel= GetSingle(requestingUser);
            if (userModel != null)
            {
