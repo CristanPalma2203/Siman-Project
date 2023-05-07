@@ -96,6 +96,7 @@ namespace UI.WinForm.ChildForms
             else
                 MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {//Agregar nuevo usuario.
             maintenanceForm = new FormUserMaintenance(new UserViewModel(), TransactionAction.Add);//Instanciar formulario, y enviar parámetros (modelo de vista y acción).
@@ -160,9 +161,5 @@ namespace UI.WinForm.ChildForms
 
         #endregion
 
-        private void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

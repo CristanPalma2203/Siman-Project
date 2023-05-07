@@ -214,3 +214,5 @@ C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\itext.styledxmlp
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\itext.svg.xml
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\Domain.Models.dll.config
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\Infra.DataAccess.dll.config
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormSolicitudes.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormSolicitudMaintenance.resources

@@ -116,7 +116,7 @@
             this.Label6.Location = new System.Drawing.Point(207, 246);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(48, 16);
+            this.Label6.Size = new System.Drawing.Size(47, 16);
             this.Label6.TabIndex = 97;
             this.Label6.Text = "Cargo:";
             // 
@@ -139,7 +139,7 @@
             this.Label1.ForeColor = System.Drawing.Color.DimGray;
             this.Label1.Location = new System.Drawing.Point(465, 96);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(126, 16);
+            this.Label1.Size = new System.Drawing.Size(125, 16);
             this.Label1.TabIndex = 85;
             this.Label1.Text = "Nombre de usuario:";
             // 
@@ -168,7 +168,7 @@
             this.lbl2.ForeColor = System.Drawing.Color.DimGray;
             this.lbl2.Location = new System.Drawing.Point(207, 196);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(45, 16);
+            this.lbl2.Size = new System.Drawing.Size(44, 16);
             this.lbl2.TabIndex = 93;
             this.lbl2.Text = "Email:";
             // 
@@ -180,7 +180,7 @@
             this.lblPassword.ForeColor = System.Drawing.Color.DimGray;
             this.lblPassword.Location = new System.Drawing.Point(465, 146);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(80, 16);
+            this.lblPassword.Size = new System.Drawing.Size(79, 16);
             this.lblPassword.TabIndex = 87;
             this.lblPassword.Text = "Contraseña:";
             // 
@@ -200,7 +200,7 @@
             this.Label5.ForeColor = System.Drawing.Color.DimGray;
             this.Label5.Location = new System.Drawing.Point(207, 146);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(61, 16);
+            this.Label5.Size = new System.Drawing.Size(60, 16);
             this.Label5.TabIndex = 91;
             this.Label5.Text = "Apellido:";
             // 
@@ -228,7 +228,7 @@
             this.Label4.ForeColor = System.Drawing.Color.DimGray;
             this.Label4.Location = new System.Drawing.Point(207, 96);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(60, 16);
+            this.Label4.Size = new System.Drawing.Size(59, 16);
             this.Label4.TabIndex = 89;
             this.Label4.Text = "Nombre:";
             // 
@@ -241,7 +241,7 @@
             this.label3.Location = new System.Drawing.Point(31, 254);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 16);
+            this.label3.Size = new System.Drawing.Size(86, 16);
             this.label3.TabIndex = 101;
             this.label3.Text = "Cambiar foto:";
             // 
@@ -262,7 +262,7 @@
             this.lblConfirmPass.ForeColor = System.Drawing.Color.DimGray;
             this.lblConfirmPass.Location = new System.Drawing.Point(465, 196);
             this.lblConfirmPass.Name = "lblConfirmPass";
-            this.lblConfirmPass.Size = new System.Drawing.Size(138, 16);
+            this.lblConfirmPass.Size = new System.Drawing.Size(137, 16);
             this.lblConfirmPass.TabIndex = 103;
             this.lblConfirmPass.Text = "Confirmar contraseña:";
             // 
@@ -283,7 +283,7 @@
             this.lblCurrentPass.ForeColor = System.Drawing.Color.DimGray;
             this.lblCurrentPass.Location = new System.Drawing.Point(465, 246);
             this.lblCurrentPass.Name = "lblCurrentPass";
-            this.lblCurrentPass.Size = new System.Drawing.Size(119, 16);
+            this.lblCurrentPass.Size = new System.Drawing.Size(118, 16);
             this.lblCurrentPass.TabIndex = 105;
             this.lblCurrentPass.Text = "Contraseña actual:";
             // 
@@ -468,7 +468,6 @@
             this.Name = "FormUserMaintenance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "User maintenance";
-            this.Load += new System.EventHandler(this.FormUserMaintenance_Load);
             this.Controls.SetChildIndex(this.Label4, 0);
             this.Controls.SetChildIndex(this.txtFirstName, 0);
             this.Controls.SetChildIndex(this.txtLastName, 0);

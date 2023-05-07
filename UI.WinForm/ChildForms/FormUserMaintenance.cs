@@ -419,10 +419,6 @@ namespace UI.WinForm.ChildForms
             ModifyUserCollection();
         }
 
-        private void FormUserMaintenance_Load(object sender, EventArgs e)
-        {
-
-        }
         private void rbSingleInsert_CheckedChanged(object sender, EventArgs e)
         {
             if (rbSingleInsert.Checked)//Cambiar la apariencia para la inserción única.
