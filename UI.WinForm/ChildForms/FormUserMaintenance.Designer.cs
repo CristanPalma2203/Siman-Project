@@ -469,7 +469,6 @@
             this.Name = "FormUserMaintenance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "User maintenance";
-            this.Load += new System.EventHandler(this.FormUserMaintenance_Load);
             this.Controls.SetChildIndex(this.Label4, 0);
             this.Controls.SetChildIndex(this.txtFirstName, 0);
             this.Controls.SetChildIndex(this.txtLastName, 0);

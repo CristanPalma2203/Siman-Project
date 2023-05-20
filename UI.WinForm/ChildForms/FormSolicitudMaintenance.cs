@@ -1,6 +1,7 @@
 ﻿using Domain.Models;
 using Domain.Models.Contracts;
 using Infra.Common;
+using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +17,7 @@ using UI.WinForm.ViewModels;
 
 namespace UI.WinForm.ChildForms
 {
-    public partial class FormUserMaintenance : Base.BaseFixedForm
+    public partial class FormSolicitudMaintenance : Base.BaseFixedForm
     {
         /// <summary>
         /// Esta clase hereda de la clase BaseFixedForm.
@@ -24,14 +25,13 @@ namespace UI.WinForm.ChildForms
 
         #region -> Definición de Campos
 
-        private IUserModel domainModel;//Interfaz del modelo de dominio Usuario.
-        private BindingList<UserViewModel> userCollection;//Colección de usuarios para la inserción masiva.
-        private UserViewModel userViewModel;//Modelo de vista del usuario.
+        private ISolicitudModel domainModel;//Interfaz del modelo de dominio Solicitud.
+        private BindingList<SolicitudViewModel> solicitudCollection;//Colección de usuarios para la inserción masiva.
+        private SolicitudViewModel solicitudViewModel;//Modelo de vista del usuario.
         private TransactionAction transaction;//Acción de transacción para la persistencia.
         private TransactionAction listOperation = TransactionAction.Add; //Acción de transacción para la colección de usuarios.
-        private Image defaultPhoto = Properties.Resources.defaultImageProfileUser;//Foto predeterminada para usuarios que no tienen una foto agregada.
         private string lastRecord = "";/*Campo para almacenar el ultimo dato insertado o editado.
-                                         Esto permitirá seleccionar y visualizar los cambios en el datagridview del formulario Users.*/
+                                         Esto permitirá seleccionar y visualizar los cambios en el datagridview del formulario Solicitud.*/
         #endregion
 
         #region -> Definición de Propiedades
@@ -46,27 +46,26 @@ namespace UI.WinForm.ChildForms
 
         #region -> Constructor
 
-        public FormUserMaintenance(UserViewModel _userViewModel, TransactionAction _transaction)
+        public FormSolicitudMaintenance(SolicitudViewModel _solicitudViewModel, TransactionAction _transaction)
         {
             InitializeComponent();
 
             //Inicializar campos
-            domainModel = new UserModel();
-            userCollection = new BindingList<UserViewModel>();
-            userViewModel = _userViewModel;
+            domainModel = new SolicitudModel();
+            solicitudCollection = new BindingList<SolicitudViewModel>();
+            solicitudViewModel = _solicitudViewModel;
             transaction = _transaction;
 
             //Inicializar propiedades de control
             rbSingleInsert.Checked = true;
-            cmbPosition.DataSource = Positions.GetPositions();
-            dataGridView1.DataSource = userCollection;
-            FillFields(_userViewModel);
+            dataGridView1.DataSource = solicitudCollection;
+            FillFields(_solicitudViewModel);
             InitializeTransactionUI();
             InitializeDataGridView();
         }
         #endregion
 
-        #region -> Definición de métodos
+        #region -> Definicion de Metodos
 
         private void InitializeTransactionUI()
         {//Este método es responsable de establecer las propiedades de apariencia según la acción de la transacción.
@@ -75,14 +74,10 @@ namespace UI.WinForm.ChildForms
                 case TransactionAction.View:
                     LastRecord = null;
                     this.TitleBarColor = Color.MediumSlateBlue;
-                    lblTitle.Text = "Detalles de usuario";
-                    lblTitle.ForeColor = Color.MediumSlateBlue;
+                    lblTitle2.Text = "Detalles de la solicitud";
+                    lblTitle2.ForeColor = Color.MediumSlateBlue;
                     btnSave.Visible = false;
                     panelAddedControl.Visible = false;
-                    lblCurrentPass.Visible = false;
-                    txtCurrentPass.Visible = false;
-                    lblConfirmPass.Visible = false;
-                    txtConfirmPass.Visible = false;
                     btnCancel.Text = "X  Cerrar";
                     btnCancel.Location = new Point(300, 310);
                     btnCancel.BackColor = Color.MediumSlateBlue;
@@ -91,51 +86,50 @@ namespace UI.WinForm.ChildForms
 
                 case TransactionAction.Add:
                     this.TitleBarColor = Color.SeaGreen;
-                    lblTitle.Text = "Agregar usuario";
-                    lblTitle.ForeColor = Color.SeaGreen;
+                    lblTitle2.Text = "Agregar Solicitud";
+                    lblTitle2.ForeColor = Color.SeaGreen;
+                    txtFecha.Enabled = false;
+                    txtFecha.Text = DateTime.Now.ToString("dd/MM/yyyy"); //<===== 
                     btnSave.BackColor = Color.SeaGreen;
-                    cmbPosition.SelectedIndex = -1;
-                    lblCurrentPass.Visible = false;
-                    txtCurrentPass.Visible = false;
                     break;
 
                 case TransactionAction.Edit:
                     this.TitleBarColor = Color.RoyalBlue;
-                    lblTitle.Text = "Editar usuario";
-                    lblTitle.ForeColor = Color.RoyalBlue;
+                    lblTitle2.Text = "Editar Solicitud";
+                    lblTitle2.ForeColor = Color.RoyalBlue;
                     btnSave.BackColor = Color.RoyalBlue;
+                    txtCliente.Enabled = false;
+                    txtUsuario.Enabled = false;
+                    txtTotal.Enabled = false;
+                    txtFecha.Enabled = false; //= FechaVenta.ToString("dd/MM/yyyy hh:mm:ss tt");
                     panelAddedControl.Visible = false;
-                    lblCurrentPass.Visible = false;
-                    txtCurrentPass.Visible = false;
                     break;
 
                 case TransactionAction.Remove:
                     this.TitleBarColor = Color.IndianRed;
-                    lblTitle.Text = "Eliminar usuario";
-                    lblTitle.ForeColor = Color.IndianRed;
+                    lblTitle2.Text = "Eliminar Solicitud";
+                    lblTitle2.ForeColor = Color.IndianRed;
                     btnSave.Text = "Eliminar";
                     btnSave.BackColor = Color.IndianRed;
                     panelAddedControl.Visible = false;
-                    lblCurrentPass.Visible = false;
-                    txtCurrentPass.Visible = false;
                     ReadOnlyFields();
                     break;
 
                 case TransactionAction.Special:
                     this.TitleBarColor = Color.RoyalBlue;
-                    lblTitle.Text = "Actualizar mi perfil de usuario";
-                    lblTitle.ForeColor = Color.RoyalBlue;
+                    lblTitle2.Text = "Actualizar mi perfil de usuario";
+                    lblTitle2.ForeColor = Color.RoyalBlue;
                     btnSave.BackColor = Color.RoyalBlue;
                     panelAddedControl.Visible = false;
-                    lblPassword.Text = "Contraseña nueva";
-					cmbPosition.Enabled = false;
+                    lblTotal.Text = "Contraseña nueva";
                     break;
             }
         }
+
         private void InitializeDataGridView()
         {//Este método es responsable de agregar columnas de editar y eliminar usuarios
-            //de la colección de usuarios de la opción inserción masiva.
-            
+         //de la colección de usuarios de la opción inserción masiva.
+
             DataGridViewImageColumn EditColumn = new DataGridViewImageColumn();
             DataGridViewImageColumn DeleteColumn = new DataGridViewImageColumn();
 
@@ -159,35 +153,34 @@ namespace UI.WinForm.ChildForms
         {//Método para persistir una sola fila en la base de datos.
             try
             {
-                var userObject = FillViewModel();//Obtener modelo de vista.
-                var validateData = new DataValidation(userObject);//Validar campos del objeto.
-                var validatePassword = txtPassword.Text == txtConfirmPass.Text;//Validar contraseñas.
+                var solicitudObject = FillViewModel();//Obtener modelo de vista.
+                var validateData = new DataValidation(solicitudObject);//Validar campos del objeto.
 
-                if (validateData.Result == true && validatePassword == true)//Si el objeto es válido.
+                if (validateData.Result == true)//Si el objeto es válido.
                 {
-                    var userModel = userViewModel.MapUserModel(userObject);//Mapear el modelo de vista a modelo de dominio.
+                    var solicitudModel = solicitudViewModel.MapSolicitudModel(solicitudObject);//Mapear el modelo de vista a modelo de dominio.
                     switch (transaction)
                     {
-                        case TransactionAction.Add://Agregar usuario.
-                            AddUser(userModel);
+                        case TransactionAction.Add://Agregar solicitud.
+                            AddSolicitud(solicitudModel);
                             break;
-                        case TransactionAction.Edit://Editar usuario.
-                            EditUser(userModel);
+                        case TransactionAction.Edit://Editar solicitud.
+                            EditSolicitud(solicitudModel);
                             break;
-                        case TransactionAction.Remove://Eliminar usuario.
-                            RemoveUser(userModel);
+                        case TransactionAction.Remove://Eliminar v.
+                            RemoveSolicitud(solicitudModel);
                             break;
-                        case TransactionAction.Special://Actualizar perfil de usuario
-                            if (string.IsNullOrWhiteSpace(txtCurrentPass.Text)==false)
-                            {
-                                if (txtCurrentPass.Text == userViewModel.Password)//Por seguridad, validar contraseña actual del usuario.
-                                    EditUser(userModel);
-                                else
-                                    MessageBox.Show("Tu contraseña actual es incorrecto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);                                
-                            }
-                            else
-                                MessageBox.Show("Por favor ingrese su contraseña actual", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);                                                    
-                            break;
+                            //case TransactionAction.Special://Actualizar perfil de usuario
+                            //    if (string.IsNullOrWhiteSpace(txtCurrentPass.Text) == false)
+                            //    {
+                            //        if (txtCurrentPass.Text == solicitudViewModel.Password)//Por seguridad, validar contraseña actual del usuario.
+                            //            EditUser(solicitudModel);
+                            //        else
+                            //            MessageBox.Show("Tu contraseña actual es incorrecto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            //    }
+                            //    else
+                            //        MessageBox.Show("Por favor ingrese su contraseña actual", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            //    break;
                     }
                 }
 
@@ -207,17 +200,18 @@ namespace UI.WinForm.ChildForms
             }
 
         }
+
         private void PersistMultipleRows()
         {//Método para persistir varias filas en la base de datos (Inserción masiva).
             try
             {
-                if (userCollection.Count > 0)//Validar si hay datos a insertar.
+                if (solicitudCollection.Count > 0)//Validar si hay datos a insertar.
                 {
-                    var userModelList = userViewModel.MapUserModel(userCollection.ToList());//Mapear la colección de usuarios a colección de modelos de dominio.
+                    var solicitudModelList = solicitudViewModel.MapSolicitudModel(solicitudCollection.ToList());//Mapear la colección de usuarios a colección de modelos de dominio.
                     switch (transaction)
                     {
                         case TransactionAction.Add:
-                            AddUserRange(userModelList);//Agregar rango de usuarios.
+                            AddSolicitudRange(solicitudModelList);//Agregar rango de usuarios.
                             break;
                     }
                 }
@@ -231,13 +225,14 @@ namespace UI.WinForm.ChildForms
             }
 
         }
-        private void AddUser(UserModel userModel)
+
+        private void AddSolicitud(SolicitudModel solicitudModel)
         {
-            var result = domainModel.Add(userModel);
+            var result = domainModel.Add(solicitudModel);
             if (result > 0)
             {
-                LastRecord = userModel.Username;//Establecer el ultimo registro.
-                MessageBox.Show("Usuario agregado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LastRecord = solicitudModel.NombreCliente;//Establecer el ultimo registro.
+                MessageBox.Show("Solicitud agregada con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             else
@@ -246,14 +241,14 @@ namespace UI.WinForm.ChildForms
                 MessageBox.Show("No se realizó la operación, intente nuevamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-        private void AddUserRange(List<UserModel> userModelList)
+        private void AddSolicitudRange(List<SolicitudModel> solicitudModelList)
         {
-            var result = domainModel.AddRange(userModelList);
+            var result = domainModel.AddRange(solicitudModelList);
 
             if (result > 0)
             {
-                LastRecord = userModelList[0].Username;//Establecer el primer objeto como ultimo registro.
-                MessageBox.Show("se agregaron " + result.ToString() + " usuarios con éxito");
+                LastRecord = solicitudModelList[0].NombreCliente;//Establecer el primer objeto como ultimo registro.
+                MessageBox.Show("se agregaron " + result.ToString() + " solicitudes con éxito");
                 this.Close();
             }
             else
@@ -262,13 +257,13 @@ namespace UI.WinForm.ChildForms
                 MessageBox.Show("No se realizó la operación, intente nuevamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-        private void EditUser(UserModel userModel)
+        private void EditSolicitud(SolicitudModel solicitudModel)
         {
-            var result = domainModel.Edit(userModel);
+            var result = domainModel.Edit(solicitudModel);
             if (result > 0)
             {
-                LastRecord = userModel.Username;//Establecer el ultimo registro.
-                MessageBox.Show("Usuario actualizado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LastRecord = solicitudModel.Id.ToString();//Establecer el ultimo registro.
+                MessageBox.Show("Solicitud actualizada con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             else
@@ -277,13 +272,13 @@ namespace UI.WinForm.ChildForms
                 MessageBox.Show("No se realizó la operación, intente nuevamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-        private void RemoveUser(UserModel userModel)
+        private void RemoveSolicitud(SolicitudModel solicitudModel)
         {
-            var result = domainModel.Remove(userModel);
+            var result = domainModel.Remove(solicitudModel);
             if (result > 0)
             {
                 LastRecord = "";//Establecer una cadena vacía como ultimo registro, ya que el usuario ya no existe, por lo tanto no es posible seleccionar y visualizar los cambios (Ver formulario Users).
-                MessageBox.Show("Usuario eliminado con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Solicitud eliminada con éxito", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             else
@@ -293,27 +288,26 @@ namespace UI.WinForm.ChildForms
             }
         }
 
-        private void ModifyUserCollection()
+        private void ModifySolicitudCollection()
         {//Este método es responsable de agregar o modificar un usuario de la colección de usuarios para la insercion masiva.
-            var userObject = FillViewModel();
+            var solicitudObject = FillViewModel();
 
-            var validateData = new DataValidation(userObject);//Validar objeto.
-            var validatePassword = txtPassword.Text == txtConfirmPass.Text;
+            var validateData = new DataValidation(solicitudObject);//Validar objeto.
 
-            if (validateData.Result == true && validatePassword == true)
+            if (validateData.Result == true)
             {
                 switch (listOperation)
                 {
                     case TransactionAction.Add:
-                        var findUser = userCollection.FirstOrDefault(user => user.Email == userObject.Email
-                                                                   || user.Username == userObject.Username);
-                        if (findUser == null)
+                        //Valida que no se duplique el Email
+                        var findSolicitud = solicitudCollection.FirstOrDefault(solicitud => solicitud.NombreCliente == solicitudObject.NombreCliente);
+                        if (findSolicitud == null)
                         {
-                            var lastUser = userCollection.LastOrDefault();
-                            if (lastUser == null) userObject.Id = 1;
-                            else userObject.Id = lastUser.Id + 1;
+                            var lastSolicitud = solicitudCollection.LastOrDefault();
+                            if (lastSolicitud == null) solicitudObject.Id = 1;
+                            else solicitudObject.Id = lastSolicitud.Id + 1;
 
-                            userCollection.Add(userObject);
+                            solicitudCollection.Add(solicitudObject);
                             ClearFields();
                         }
                         else
@@ -324,11 +318,11 @@ namespace UI.WinForm.ChildForms
                         break;
 
                     case TransactionAction.Edit:
-                        var findObject = userCollection.SingleOrDefault(user => user.Id == userViewModel.Id);
-                        var index = userCollection.IndexOf(findObject);
-                        userCollection[index] = userObject;
+                        var findObject = solicitudCollection.SingleOrDefault(solicitud => solicitud.Id == solicitudViewModel.Id);
+                        var index = solicitudCollection.IndexOf(findObject);
+                        solicitudCollection[index] = solicitudObject;
 
-                        userCollection.ResetBindings();
+                        solicitudCollection.ResetBindings();
                         ClearFields();
                         break;
                 }
@@ -342,69 +336,60 @@ namespace UI.WinForm.ChildForms
             }
         }
 
-        private void FillFields(UserViewModel userView)
+        private void FillFields(SolicitudViewModel solicitudView)
         {//Cargar los datos del modelo de vista en los campos del formulario.
-            txtUsername.Text = userView.Username;
-            txtPassword.Text = userView.Password;
-            txtConfirmPass.Text = userView.Password;
-            txtFirstName.Text = userView.FirstName;
-            txtLastName.Text = userView.LastName;
-            cmbPosition.Text = userView.Position;
-            txtEmail.Text = userView.Email;
-            if (userView.Photo != null)
-                PictureBoxPhoto.Image = ItemConverter.BinaryToImage(userView.Photo);
-            else PictureBoxPhoto.Image = defaultPhoto;
+            txtCliente.Text = solicitudView.NombreCliente;
+            txtUsuario.Text = solicitudView.UsuarioGestion;
+            txtFecha.Text = Convert.ToDateTime(solicitudView.FechaVenta).ToString("dd/MM/yyyy");
+            txtTotal.Text = Convert.ToDecimal(solicitudView.TotalVenta).ToString();
+            txtEstado.Text = Convert.ToInt32(solicitudView.EstadoId).ToString();
+            txtIndicaciones.Text = solicitudView.Indicaciones;
+            txtObservaciones.Text = solicitudView.Observaciones;
         }
-        private UserViewModel FillViewModel()
+        private SolicitudViewModel FillViewModel()
         {//LLenar y retornar los datos de los campos del formulario en un nuevo objeto.
-            var userView = new UserViewModel();
+            var solicitudView = new SolicitudViewModel();
 
-            userView.Id = userViewModel.Id;
-            userView.Username = txtUsername.Text;
-            userView.Password = txtPassword.Text;
-            userView.FirstName = txtFirstName.Text;
-            userView.LastName = txtLastName.Text;
-            userView.Position = cmbPosition.Text;
-            userView.Email = txtEmail.Text;
-            if (PictureBoxPhoto.Image == defaultPhoto)
-                userView.Photo = null;
-            else userView.Photo = ItemConverter.ImageToBinary(PictureBoxPhoto.Image);
+            solicitudView.Id = solicitudViewModel.Id;
+            solicitudView.NombreCliente = txtCliente.Text;
+            solicitudView.UsuarioGestion = txtUsuario.Text;
+            solicitudView.FechaVenta = Convert.ToDateTime(txtFecha.Text);
+            solicitudView.TotalVenta = Convert.ToDecimal(txtTotal.Text);
+            solicitudView.EstadoId = Convert.ToInt32(txtEstado.Text);
+            solicitudView.Indicaciones = txtIndicaciones.Text;
+            solicitudView.Observaciones = txtObservaciones.Text;
 
-            return userView;
+            return solicitudView;
         }
-
         private void ClearFields()
         {//Limpiar los campos del formulario.
-            txtUsername.Clear();
-            txtPassword.Clear();
-            txtConfirmPass.Clear();
-            txtCurrentPass.Clear();
-            txtFirstName.Clear();
-            txtLastName.Clear();
-            txtEmail.Clear();
-            PictureBoxPhoto.Image = defaultPhoto;
-            cmbPosition.SelectedIndex = -1;
+            txtUsuario.Clear();
+            txtTotal.Clear();
+            txtCliente.Clear();
+            txtFecha.Clear();
+            txtEstado.Clear();
+            txtIndicaciones.Clear();
+            txtObservaciones.Clear();
 
             listOperation = TransactionAction.Add;
-            btnAddUser.Text = "Agregar";
-            btnAddUser.BackColor = Color.CornflowerBlue;
+            btnAddSolicitud.Text = "Agregar";
+            btnAddSolicitud.BackColor = Color.CornflowerBlue;
         }
+
         private void ReadOnlyFields()
         {//Convertir los campos del formulario en solo lectura.
-            txtUsername.ReadOnly = true;
-            txtPassword.ReadOnly = true;
-            txtConfirmPass.ReadOnly = true;
-            txtCurrentPass.ReadOnly = true;
-            txtFirstName.ReadOnly = true;
-            txtLastName.ReadOnly = true;
-            txtEmail.ReadOnly = true;
-            btnAddPhoto.Enabled = false;
-            btnDeletePhoto.Enabled = false;
-            cmbPosition.Enabled = false;
+            txtUsuario.ReadOnly = true;
+            txtTotal.ReadOnly = true;
+            txtCliente.ReadOnly = true;
+            txtFecha.ReadOnly = true;
+            txtEstado.ReadOnly = true;
+            txtIndicaciones.ReadOnly = true;
+            txtObservaciones.ReadOnly = true;
         }
+
         #endregion
 
-        #region -> Definición de métodos de evento
+        #region -> Definicion de metodos de evento
 
         private void btnSave_Click(object sender, EventArgs e)
         {//Boton guardar cambios
@@ -414,9 +399,9 @@ namespace UI.WinForm.ChildForms
             else //Caso contrario, ejecutar el método de persistir varias filas(Insercción masiva)
                 PersistMultipleRows();
         }
-        private void btnAddUserList_Click(object sender, EventArgs e)
+        private void btnAddSolicitudList_Click(object sender, EventArgs e)
         {//Botón de agregar usuario a la colección de usuarios para la insercción masiva.
-            ModifyUserCollection();
+            ModifySolicitudCollection();
         }
 
         private void rbSingleInsert_CheckedChanged(object sender, EventArgs e)
@@ -435,20 +420,6 @@ namespace UI.WinForm.ChildForms
                 btnSave.Location = new Point(388, 654);
                 this.Size = new Size(754, 715);
             }
-        }
-
-        private void btnAddPhoto_Click(object sender, EventArgs e)
-        {//Agregar una imagen al cuadro de imagen para la foto del usuario.
-            OpenFileDialog openFile = new OpenFileDialog();
-            openFile.Filter = "Images(.jpg,.png)|*.png;*.jpg";
-            if (openFile.ShowDialog() == DialogResult.OK)
-            {
-                PictureBoxPhoto.Image = new Bitmap(openFile.FileName);
-            }
-        }
-        private void btnDeletePhoto_Click(object sender, EventArgs e)
-        {//Borrar foto del usuario
-            PictureBoxPhoto.Image = defaultPhoto;
         }
 
         private void dataGridView1_CellMouseEnter(object sender, DataGridViewCellEventArgs e)
@@ -475,16 +446,16 @@ namespace UI.WinForm.ChildForms
             if (e.ColumnIndex == dataGridView1.Columns["DeleteColumn"].Index)
             {
                 if (listOperation != TransactionAction.Edit)
-                    userCollection.RemoveAt(e.RowIndex);
+                    solicitudCollection.RemoveAt(e.RowIndex);
                 else MessageBox.Show("Se está editando datos, por favor termine la operación.");
             }
             if (e.ColumnIndex == dataGridView1.Columns["EditColumn"].Index)
             {
-                userViewModel = userCollection[e.RowIndex];
-                FillFields(userViewModel);
+                solicitudViewModel = solicitudCollection[e.RowIndex];
+                FillFields(solicitudViewModel);
                 listOperation = TransactionAction.Edit;
-                btnAddUser.Text = "Actualizar";
-                btnAddUser.BackColor = Color.MediumSlateBlue;
+                btnAddSolicitud.Text = "Actualizar";
+                btnAddSolicitud.BackColor = Color.MediumSlateBlue;
             }
         }
 
@@ -500,7 +471,5 @@ namespace UI.WinForm.ChildForms
             LastRecord = null;
         }
         #endregion
-
-   
     }
 }

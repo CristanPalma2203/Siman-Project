@@ -97,6 +97,7 @@
     <Compile Include="Repositories\CustemerRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\Reportes.cs" />
+    <Compile Include="Repositories\SolicitudRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>

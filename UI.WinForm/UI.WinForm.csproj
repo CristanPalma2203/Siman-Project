@@ -173,6 +173,18 @@
     <Compile Include="ChildForms\FormReports.Designer.cs">
       <DependentUpon>FormReports.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildForms\FormSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormSolicitudes.Designer.cs">
+      <DependentUpon>FormSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormSolicitudMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormSolicitudMaintenance.Designer.cs">
+      <DependentUpon>FormSolicitudMaintenance.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildForms\FormUserMaintenance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,6 +264,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\FormReports.resx">
       <DependentUpon>FormReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormSolicitudes.resx">
+      <DependentUpon>FormSolicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormSolicitudMaintenance.resx">
+      <DependentUpon>FormSolicitudMaintenance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\FormUserMaintenance.resx">
       <DependentUpon>FormUserMaintenance.cs</DependentUpon>
