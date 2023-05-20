@@ -103,6 +103,16 @@ namespace UI.WinForm.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Catalogue {
+            get {
+                object obj = ResourceManager.GetObject("Catalogue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CloseDark {
             get {
                 object obj = ResourceManager.GetObject("CloseDark", resourceCulture);
@@ -113,9 +123,29 @@ namespace UI.WinForm.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap customer {
+            get {
+                object obj = ResourceManager.GetObject("customer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap defaultImageProfileUser {
             get {
                 object obj = ResourceManager.GetObject("defaultImageProfileUser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap defultProduct {
+            get {
+                object obj = ResourceManager.GetObject("defultProduct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

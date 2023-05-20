@@ -119,11 +119,47 @@
     <Compile Include="Base\BaseMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ChildForms\FormCatalogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormCatalogue.Designer.cs">
+      <DependentUpon>FormCatalogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormCatalogueMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormCatalogueMaintenance.Designer.cs">
+      <DependentUpon>FormCatalogueMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormCustomer.Designer.cs">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormCustomerMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormCustomerMaintenance.Designer.cs">
+      <DependentUpon>FormCustomerMaintenance.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildForms\FormPacients.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChildForms\FormPacients.Designer.cs">
       <DependentUpon>FormPacients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormProduct.Designer.cs">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormProductMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormProductMaintenance.Designer.cs">
+      <DependentUpon>FormProductMaintenance.cs</DependentUpon>
     </Compile>
     <Compile Include="ChildForms\FormRecoverPassword.cs">
       <SubType>Form</SubType>
@@ -173,6 +209,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ExceptionManager.cs" />
     <Compile Include="Utils\ItemConverter.cs" />
+    <Compile Include="ViewModels\CatalogueViewModel.cs" />
+    <Compile Include="ViewModels\CustomerViewModel.cs" />
+    <Compile Include="ViewModels\ProductViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
     <Compile Include="WelcomeForm.cs">
       <SubType>Form</SubType>
@@ -180,12 +219,33 @@
     <Compile Include="WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\customer.png" />
+    <None Include="Resources\Catalogue.png" />
+    <None Include="Resources\defultProduct.png" />
     <None Include="Resources\user.png" />
     <None Include="Resources\usuario.png" />
     <None Include="Resources\logo6.png" />
     <None Include="Resources\logo5.png" />
+    <EmbeddedResource Include="ChildForms\FormCatalogue.resx">
+      <DependentUpon>FormCatalogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormCatalogueMaintenance.resx">
+      <DependentUpon>FormCatalogueMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormCustomer.resx">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormCustomerMaintenance.resx">
+      <DependentUpon>FormCustomerMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\FormPacients.resx">
       <DependentUpon>FormPacients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormProduct.resx">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormProductMaintenance.resx">
+      <DependentUpon>FormProductMaintenance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\FormRecoverPassword.resx">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>

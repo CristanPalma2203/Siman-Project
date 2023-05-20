@@ -79,8 +79,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogueModel.cs" />
     <Compile Include="Contracts\IBaseModel.cs" />
+    <Compile Include="Contracts\ICatalogueModel.cs" />
+    <Compile Include="Contracts\ICustomerModel.cs" />
+    <Compile Include="Contracts\IProductModel.cs" />
     <Compile Include="Contracts\IUserModel.cs" />
+    <Compile Include="CustomerModel.cs" />
+    <Compile Include="ProductModel.cs" />
     <Compile Include="UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -36,6 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu = new System.Windows.Forms.Panel();
+            this.btnIcCustomer = new FontAwesome.Sharp.IconButton();
+            this.btnCatalogo = new FontAwesome.Sharp.IconButton();
+            this.btnProductos = new FontAwesome.Sharp.IconButton();
             this.Salir = new FontAwesome.Sharp.IconButton();
             this.btnReports = new FontAwesome.Sharp.IconButton();
             this.Paciente = new FontAwesome.Sharp.IconButton();
@@ -143,6 +146,9 @@
             // panelSideMenu
             // 
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
+            this.panelSideMenu.Controls.Add(this.btnIcCustomer);
+            this.panelSideMenu.Controls.Add(this.btnCatalogo);
+            this.panelSideMenu.Controls.Add(this.btnProductos);
             this.panelSideMenu.Controls.Add(this.Salir);
             this.panelSideMenu.Controls.Add(this.btnReports);
             this.panelSideMenu.Controls.Add(this.Paciente);
@@ -152,6 +158,93 @@
             this.panelSideMenu.Name = "panelSideMenu";
             this.panelSideMenu.Size = new System.Drawing.Size(208, 564);
             this.panelSideMenu.TabIndex = 1;
+            // 
+            // btnIcCustomer
+            // 
+            this.btnIcCustomer.BackColor = System.Drawing.Color.Transparent;
+            this.btnIcCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIcCustomer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnIcCustomer.FlatAppearance.BorderSize = 0;
+            this.btnIcCustomer.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnIcCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnIcCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnIcCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIcCustomer.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnIcCustomer.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIcCustomer.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnIcCustomer.IconChar = FontAwesome.Sharp.IconChar.PiedPiperAlt;
+            this.btnIcCustomer.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnIcCustomer.IconSize = 50;
+            this.btnIcCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnIcCustomer.Location = new System.Drawing.Point(0, 362);
+            this.btnIcCustomer.Name = "btnIcCustomer";
+            this.btnIcCustomer.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnIcCustomer.Rotation = 0D;
+            this.btnIcCustomer.Size = new System.Drawing.Size(208, 60);
+            this.btnIcCustomer.TabIndex = 31;
+            this.btnIcCustomer.Text = "Clientes";
+            this.btnIcCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnIcCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnIcCustomer.UseVisualStyleBackColor = false;
+            this.btnIcCustomer.Click += new System.EventHandler(this.btnIcCustomer_Click);
+            // 
+            // btnCatalogo
+            // 
+            this.btnCatalogo.BackColor = System.Drawing.Color.Transparent;
+            this.btnCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCatalogo.FlatAppearance.BorderSize = 0;
+            this.btnCatalogo.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnCatalogo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnCatalogo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnCatalogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCatalogo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnCatalogo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCatalogo.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnCatalogo.IconChar = FontAwesome.Sharp.IconChar.Clipboard;
+            this.btnCatalogo.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCatalogo.IconSize = 50;
+            this.btnCatalogo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCatalogo.Location = new System.Drawing.Point(0, 302);
+            this.btnCatalogo.Name = "btnCatalogo";
+            this.btnCatalogo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnCatalogo.Rotation = 0D;
+            this.btnCatalogo.Size = new System.Drawing.Size(208, 60);
+            this.btnCatalogo.TabIndex = 30;
+            this.btnCatalogo.Text = "Catalgo";
+            this.btnCatalogo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCatalogo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCatalogo.UseVisualStyleBackColor = false;
+            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click);
+            // 
+            // btnProductos
+            // 
+            this.btnProductos.BackColor = System.Drawing.Color.Transparent;
+            this.btnProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductos.FlatAppearance.BorderSize = 0;
+            this.btnProductos.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnProductos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnProductos.IconChar = FontAwesome.Sharp.IconChar.ProductHunt;
+            this.btnProductos.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnProductos.IconSize = 50;
+            this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductos.Location = new System.Drawing.Point(0, 242);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnProductos.Rotation = 0D;
+            this.btnProductos.Size = new System.Drawing.Size(208, 60);
+            this.btnProductos.TabIndex = 29;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProductos.UseVisualStyleBackColor = false;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
             // Salir
             // 
@@ -259,7 +352,7 @@
             this.lblLastName.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblLastName.Location = new System.Drawing.Point(72, 36);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(70, 16);
+            this.lblLastName.Size = new System.Drawing.Size(69, 16);
             this.lblLastName.TabIndex = 17;
             this.lblLastName.Text = "LastName";
             // 
@@ -297,7 +390,7 @@
             this.lblPosition.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblPosition.Location = new System.Drawing.Point(72, 52);
             this.lblPosition.Name = "lblPosition";
-            this.lblPosition.Size = new System.Drawing.Size(56, 16);
+            this.lblPosition.Size = new System.Drawing.Size(55, 16);
             this.lblPosition.TabIndex = 15;
             this.lblPosition.Text = "Position";
             // 
@@ -330,7 +423,7 @@
             this.lblFecha.ForeColor = System.Drawing.Color.Silver;
             this.lblFecha.Location = new System.Drawing.Point(236, 420);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(518, 44);
+            this.lblFecha.Size = new System.Drawing.Size(517, 44);
             this.lblFecha.TabIndex = 16;
             this.lblFecha.Text = "jueves, 14 de mayo de 2020";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -459,5 +552,8 @@
         private System.Windows.Forms.Panel panelDesktopHeader;
         private FontAwesome.Sharp.IconPictureBox btnChildFormClose;
         internal System.Windows.Forms.Label lblCaption;
+        private FontAwesome.Sharp.IconButton btnProductos;
+        private FontAwesome.Sharp.IconButton btnCatalogo;
+        private FontAwesome.Sharp.IconButton btnIcCustomer;
     }
 }

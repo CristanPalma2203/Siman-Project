@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnCancel = new System.Windows.Forms.Button();
             this.cmbPosition = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
@@ -91,7 +91,7 @@
             this.cmbPosition.Name = "cmbPosition";
             this.cmbPosition.Size = new System.Drawing.Size(230, 24);
             this.cmbPosition.TabIndex = 5;
-            // 
+         // 
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.RoyalBlue;
@@ -116,7 +116,7 @@
             this.Label6.Location = new System.Drawing.Point(207, 246);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(48, 16);
+            this.Label6.Size = new System.Drawing.Size(47, 16);
             this.Label6.TabIndex = 97;
             this.Label6.Text = "Cargo:";
             // 
@@ -139,7 +139,7 @@
             this.Label1.ForeColor = System.Drawing.Color.DimGray;
             this.Label1.Location = new System.Drawing.Point(465, 96);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(126, 16);
+            this.Label1.Size = new System.Drawing.Size(125, 16);
             this.Label1.TabIndex = 85;
             this.Label1.Text = "Nombre de usuario:";
             // 
@@ -150,7 +150,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(230, 22);
             this.txtUsername.TabIndex = 6;
-            // 
+         // 
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -159,7 +159,7 @@
             this.txtPassword.Size = new System.Drawing.Size(230, 22);
             this.txtPassword.TabIndex = 7;
             this.txtPassword.UseSystemPasswordChar = true;
-            // 
+           // 
             // lbl2
             // 
             this.lbl2.AutoSize = true;
@@ -168,7 +168,7 @@
             this.lbl2.ForeColor = System.Drawing.Color.DimGray;
             this.lbl2.Location = new System.Drawing.Point(207, 196);
             this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(45, 16);
+            this.lbl2.Size = new System.Drawing.Size(44, 16);
             this.lbl2.TabIndex = 93;
             this.lbl2.Text = "Email:";
             // 
@@ -180,7 +180,7 @@
             this.lblPassword.ForeColor = System.Drawing.Color.DimGray;
             this.lblPassword.Location = new System.Drawing.Point(465, 146);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(80, 16);
+            this.lblPassword.Size = new System.Drawing.Size(79, 16);
             this.lblPassword.TabIndex = 87;
             this.lblPassword.Text = "Contraseña:";
             // 
@@ -200,7 +200,7 @@
             this.Label5.ForeColor = System.Drawing.Color.DimGray;
             this.Label5.Location = new System.Drawing.Point(207, 146);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(61, 16);
+            this.Label5.Size = new System.Drawing.Size(60, 16);
             this.Label5.TabIndex = 91;
             this.Label5.Text = "Apellido:";
             // 
@@ -228,7 +228,7 @@
             this.Label4.ForeColor = System.Drawing.Color.DimGray;
             this.Label4.Location = new System.Drawing.Point(207, 96);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(60, 16);
+            this.Label4.Size = new System.Drawing.Size(59, 16);
             this.Label4.TabIndex = 89;
             this.Label4.Text = "Nombre:";
             // 
@@ -241,7 +241,7 @@
             this.label3.Location = new System.Drawing.Point(31, 254);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 16);
+            this.label3.Size = new System.Drawing.Size(86, 16);
             this.label3.TabIndex = 101;
             this.label3.Text = "Cambiar foto:";
             // 
@@ -262,7 +262,7 @@
             this.lblConfirmPass.ForeColor = System.Drawing.Color.DimGray;
             this.lblConfirmPass.Location = new System.Drawing.Point(465, 196);
             this.lblConfirmPass.Name = "lblConfirmPass";
-            this.lblConfirmPass.Size = new System.Drawing.Size(138, 16);
+            this.lblConfirmPass.Size = new System.Drawing.Size(137, 16);
             this.lblConfirmPass.TabIndex = 103;
             this.lblConfirmPass.Text = "Confirmar contraseña:";
             // 
@@ -274,7 +274,7 @@
             this.txtCurrentPass.Size = new System.Drawing.Size(230, 22);
             this.txtCurrentPass.TabIndex = 9;
             this.txtCurrentPass.UseSystemPasswordChar = true;
-            // 
+          // 
             // lblCurrentPass
             // 
             this.lblCurrentPass.AutoSize = true;
@@ -283,7 +283,7 @@
             this.lblCurrentPass.ForeColor = System.Drawing.Color.DimGray;
             this.lblCurrentPass.Location = new System.Drawing.Point(465, 246);
             this.lblCurrentPass.Name = "lblCurrentPass";
-            this.lblCurrentPass.Size = new System.Drawing.Size(119, 16);
+            this.lblCurrentPass.Size = new System.Drawing.Size(118, 16);
             this.lblCurrentPass.TabIndex = 105;
             this.lblCurrentPass.Text = "Contraseña actual:";
             // 
@@ -295,7 +295,7 @@
             this.panelAddedControl.Name = "panelAddedControl";
             this.panelAddedControl.Size = new System.Drawing.Size(241, 30);
             this.panelAddedControl.TabIndex = 106;
-            // 
+
             // rbMultiInsert
             // 
             this.rbMultiInsert.AutoSize = true;
@@ -309,6 +309,7 @@
             this.rbMultiInsert.TabStop = true;
             this.rbMultiInsert.Text = "Inserción múltiple";
             this.rbMultiInsert.UseVisualStyleBackColor = true;
+          
             // 
             // rbSingleInsert
             // 
@@ -358,24 +359,24 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView1.ColumnHeadersHeight = 40;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(251)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(238)))), ((int)(((byte)(246)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.DimGray;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.LightGray;
             this.dataGridView1.Location = new System.Drawing.Point(9, 49);

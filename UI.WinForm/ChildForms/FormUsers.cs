@@ -88,7 +88,7 @@ namespace UI.WinForm.ChildForms
             }
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
+                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetCustomer(id).
                 if (user == null) return;
                 var frm = new FormUserMaintenance(user, TransactionAction.View);//Instanciar formulario, y enviar parámetros (modelo de vista y acción).
                 frm.ShowDialog();//Mostrar formulario.
@@ -112,7 +112,7 @@ namespace UI.WinForm.ChildForms
             }
             if (dataGridView1.SelectedCells.Count > 1)
             {
-                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
+                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetCustomer(id).
                 if (user == null) return;
 
                 maintenanceForm = new FormUserMaintenance(user, TransactionAction.Edit);//Instanciar formulario, y enviar parámetros (modelo de vista y acción).
@@ -131,7 +131,7 @@ namespace UI.WinForm.ChildForms
             }
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetUser(id).
+                var user = GetUser((int)dataGridView1.CurrentRow.Cells[0].Value);//Obtener ID del usuario y buscar usando el método GetCustomer(id).
                 if (user == null) return;
 
                 maintenanceForm = new FormUserMaintenance(user, TransactionAction.Remove);//Instanciar formulario, y enviar parámetros (modelo de vista y acción).
@@ -160,7 +160,8 @@ namespace UI.WinForm.ChildForms
 
         #endregion
 
-        private void txtSearch_TextChanged(object sender, EventArgs e)
+
+        private void txtSearch_TextChanged_1(object sender, EventArgs e)
         {
 
         }

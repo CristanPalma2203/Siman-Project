@@ -82,11 +82,20 @@
     <Compile Include="Base\BulkTransaction.cs" />
     <Compile Include="Base\MasterRepository.cs" />
     <Compile Include="Base\Repository.cs" />
+    <Compile Include="Contracts\ICatalogueRepository.cs" />
+    <Compile Include="Contracts\ICustemerRepository.cs" />
     <Compile Include="Contracts\IGenericRepository.cs" />
     <Compile Include="Contracts\IMasterRepository.cs" />
+    <Compile Include="Contracts\IProductRepository.cs" />
     <Compile Include="Contracts\IUserRepository.cs" />
+    <Compile Include="Entities\Catalogue.cs" />
+    <Compile Include="Entities\Custemer.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CatalogueRepository.cs" />
+    <Compile Include="Repositories\CustemerRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\Reportes.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>

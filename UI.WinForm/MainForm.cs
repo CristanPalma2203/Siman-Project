@@ -364,5 +364,20 @@ namespace UI.WinForm
         {
             CloseChildForm();
         }
+
+        private void btnProductos_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(() => new FormProduct(), sender);
+        }
+
+        private void btnCatalogo_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(()=> new FormCatalogue(),sender);
+        }
+
+        private void btnIcCustomer_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(() => new FormCustomer(), sender);
+        }
     }
 }
