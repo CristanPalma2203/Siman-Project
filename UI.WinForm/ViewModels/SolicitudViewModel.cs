@@ -15,9 +15,9 @@ namespace UI.WinForm.ViewModels
 
         private int _id;
         private int _idCliente;
-        public string _nombreCliente;
+        private string _nombreCliente;
         private int _idUsuarioGestion;
-        public string _usuarioGestion;
+        private string _usuarioGestion;
         private DateTime _fechaVenta;
         private decimal _totalVenta;
         private int _estadoId;

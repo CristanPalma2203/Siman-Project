@@ -326,6 +326,11 @@ namespace UI.WinForm
             OpenChildForm(() => new FormSolicitudes(), sender);
         }
 
+        private void btnSolicitudesProducto_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(() => new FormSolicitudProducto(), sender);
+        }
+
         private void linkProfile_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             //Si el control no es boton del menu lateral enviar NULL como parámetro.

@@ -54,6 +54,7 @@
             this.lblCaption = new System.Windows.Forms.Label();
             this.panelDesktopHeader = new System.Windows.Forms.Panel();
             this.btnChildFormClose = new FontAwesome.Sharp.IconPictureBox();
+            this.btnSolicitudProducto = new FontAwesome.Sharp.IconButton();
             this.PanelClientArea.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
@@ -144,6 +145,7 @@
             // panelSideMenu
             // 
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
+            this.panelSideMenu.Controls.Add(this.btnSolicitudProducto);
             this.panelSideMenu.Controls.Add(this.btnReports);
             this.panelSideMenu.Controls.Add(this.btnSolicitudes);
             this.panelSideMenu.Controls.Add(this.Salir);
@@ -159,7 +161,6 @@
             // 
             this.btnReports.BackColor = System.Drawing.Color.Transparent;
             this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReports.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnReports.FlatAppearance.BorderSize = 0;
             this.btnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
@@ -172,7 +173,7 @@
             this.btnReports.IconColor = System.Drawing.Color.WhiteSmoke;
             this.btnReports.IconSize = 50;
             this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.Location = new System.Drawing.Point(0, 242);
+            this.btnReports.Location = new System.Drawing.Point(0, 302);
             this.btnReports.Name = "btnReports";
             this.btnReports.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnReports.Rotation = 0D;
@@ -434,6 +435,34 @@
             this.btnChildFormClose.TabStop = false;
             this.btnChildFormClose.Click += new System.EventHandler(this.Close_Click);
             // 
+            // btnSolicitudProducto
+            // 
+            this.btnSolicitudProducto.BackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudProducto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSolicitudProducto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSolicitudProducto.FlatAppearance.BorderSize = 0;
+            this.btnSolicitudProducto.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudProducto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSolicitudProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnSolicitudProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitudProducto.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSolicitudProducto.IconChar = FontAwesome.Sharp.IconChar.Cubes;
+            this.btnSolicitudProducto.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSolicitudProducto.IconSize = 50;
+            this.btnSolicitudProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudProducto.Location = new System.Drawing.Point(0, 242);
+            this.btnSolicitudProducto.Name = "btnSolicitudProducto";
+            this.btnSolicitudProducto.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnSolicitudProducto.Rotation = 0D;
+            this.btnSolicitudProducto.Size = new System.Drawing.Size(208, 60);
+            this.btnSolicitudProducto.TabIndex = 33;
+            this.btnSolicitudProducto.Text = "Soli Productos";
+            this.btnSolicitudProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSolicitudProducto.UseVisualStyleBackColor = false;
+            this.btnSolicitudProducto.Click += new System.EventHandler(this.btnSolicitudesProducto_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -490,5 +519,6 @@
         internal System.Windows.Forms.Label lblCaption;
         private FontAwesome.Sharp.IconButton btnSolicitudes;
         private FontAwesome.Sharp.IconButton btnReports;
+        private FontAwesome.Sharp.IconButton btnSolicitudProducto;
     }
 }

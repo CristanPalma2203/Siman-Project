@@ -8,7 +8,7 @@ using static iText.IO.Util.IntHashtable;
 
 namespace Infra.DataAccess.Contracts
 {
-    internal interface ISolicitudRepository : IGenericRepository<Solicitud>
+    public interface ISolicitudRepository : IGenericRepository<Solicitud>
     {
         //IEnumerable<Solicitud> GetAll();//Listar todas las entidades.
     }

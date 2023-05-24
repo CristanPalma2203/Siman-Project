@@ -81,8 +81,10 @@
   <ItemGroup>
     <Compile Include="Contracts\IBaseModel.cs" />
     <Compile Include="Contracts\ISolicitudModel.cs" />
+    <Compile Include="Contracts\ISolicitudProductoModel.cs" />
     <Compile Include="Contracts\IUserModel.cs" />
     <Compile Include="SolicitudModel.cs" />
+    <Compile Include="SolicitudProductoModel.cs" />
     <Compile Include="UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
