@@ -214,7 +214,6 @@ C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\itext.styledxmlp
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\itext.svg.xml
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\Domain.Models.dll.config
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\bin\Debug\Infra.DataAccess.dll.config
-<<<<<<< HEAD
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormSolicitudes.resources
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormSolicitudMaintenance.resources
 C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormSolicitudProducto.resources
@@ -298,4 +297,9 @@ C:\Users\Josue\Desktop\sima\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildF
 C:\Users\Josue\Desktop\sima\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCatalogueMaintenance.resources
 C:\Users\Josue\Desktop\sima\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCustomer.resources
 C:\Users\Josue\Desktop\sima\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCustomerMaintenance.resources
->>>>>>> ca35f0a10ff44d52b662a9d54eb0bdcc1f99f4a7
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCatalogue.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCatalogueMaintenance.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCustomer.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormCustomerMaintenance.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormProduct.resources
+C:\Users\Billy Mejia\Desktop\Siman-Project\UI.WinForm\obj\Debug\UI.WinForm.ChildForms.FormProductMaintenance.resources

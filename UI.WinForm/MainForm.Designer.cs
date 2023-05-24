@@ -36,13 +36,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu = new System.Windows.Forms.Panel();
+            this.btnSolicitudProducto = new FontAwesome.Sharp.IconButton();
             this.btnIcCustomer = new FontAwesome.Sharp.IconButton();
             this.btnCatalogo = new FontAwesome.Sharp.IconButton();
             this.btnProductos = new FontAwesome.Sharp.IconButton();
             this.Salir = new FontAwesome.Sharp.IconButton();
             this.btnReports = new FontAwesome.Sharp.IconButton();
-            this.btnSolicitudes = new FontAwesome.Sharp.IconButton();
-            this.Salir = new FontAwesome.Sharp.IconButton();
             this.Paciente = new FontAwesome.Sharp.IconButton();
             this.panelMenuHeader = new System.Windows.Forms.Panel();
             this.lblLastName = new System.Windows.Forms.Label();
@@ -58,7 +57,7 @@
             this.lblCaption = new System.Windows.Forms.Label();
             this.panelDesktopHeader = new System.Windows.Forms.Panel();
             this.btnChildFormClose = new FontAwesome.Sharp.IconPictureBox();
-            this.btnSolicitudProducto = new FontAwesome.Sharp.IconButton();
+            this.btnSolicitudes = new FontAwesome.Sharp.IconButton();
             this.PanelClientArea.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
@@ -149,14 +148,13 @@
             // panelSideMenu
             // 
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(35)))), ((int)(((byte)(46)))));
+            this.panelSideMenu.Controls.Add(this.btnSolicitudes);
             this.panelSideMenu.Controls.Add(this.btnSolicitudProducto);
             this.panelSideMenu.Controls.Add(this.btnIcCustomer);
             this.panelSideMenu.Controls.Add(this.btnCatalogo);
             this.panelSideMenu.Controls.Add(this.btnProductos);
             this.panelSideMenu.Controls.Add(this.Salir);
             this.panelSideMenu.Controls.Add(this.btnReports);
-            this.panelSideMenu.Controls.Add(this.btnSolicitudes);
-            this.panelSideMenu.Controls.Add(this.Salir);
             this.panelSideMenu.Controls.Add(this.Paciente);
             this.panelSideMenu.Controls.Add(this.panelMenuHeader);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -165,33 +163,36 @@
             this.panelSideMenu.Size = new System.Drawing.Size(208, 564);
             this.panelSideMenu.TabIndex = 1;
             // 
+            // btnSolicitudProducto
+            // 
+            this.btnSolicitudProducto.BackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudProducto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSolicitudProducto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSolicitudProducto.FlatAppearance.BorderSize = 0;
+            this.btnSolicitudProducto.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudProducto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSolicitudProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnSolicitudProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitudProducto.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSolicitudProducto.IconChar = FontAwesome.Sharp.IconChar.Cubes;
+            this.btnSolicitudProducto.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSolicitudProducto.IconSize = 50;
+            this.btnSolicitudProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudProducto.Location = new System.Drawing.Point(0, 362);
+            this.btnSolicitudProducto.Name = "btnSolicitudProducto";
+            this.btnSolicitudProducto.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnSolicitudProducto.Rotation = 0D;
+            this.btnSolicitudProducto.Size = new System.Drawing.Size(208, 60);
+            this.btnSolicitudProducto.TabIndex = 33;
+            this.btnSolicitudProducto.Text = "Soli Productos";
+            this.btnSolicitudProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSolicitudProducto.UseVisualStyleBackColor = false;
+            this.btnSolicitudProducto.Click += new System.EventHandler(this.btnSolicitudesProducto_Click);
+            // 
             // btnIcCustomer
             // 
-            this.btnReports.BackColor = System.Drawing.Color.Transparent;
-            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReports.FlatAppearance.BorderSize = 0;
-            this.btnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnReports.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
-            this.btnReports.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReports.IconSize = 50;
-            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.Location = new System.Drawing.Point(0, 302);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnReports.Rotation = 0D;
-            this.btnReports.Size = new System.Drawing.Size(208, 60);
-            this.btnReports.TabIndex = 32;
-            this.btnReports.Text = "Reportes";
-            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReports.UseVisualStyleBackColor = false;
-            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             this.btnIcCustomer.BackColor = System.Drawing.Color.Transparent;
             this.btnIcCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIcCustomer.Dock = System.Windows.Forms.DockStyle.Top;
@@ -207,7 +208,7 @@
             this.btnIcCustomer.IconColor = System.Drawing.Color.WhiteSmoke;
             this.btnIcCustomer.IconSize = 50;
             this.btnIcCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIcCustomer.Location = new System.Drawing.Point(0, 362);
+            this.btnIcCustomer.Location = new System.Drawing.Point(0, 302);
             this.btnIcCustomer.Name = "btnIcCustomer";
             this.btnIcCustomer.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnIcCustomer.Rotation = 0D;
@@ -236,7 +237,7 @@
             this.btnCatalogo.IconColor = System.Drawing.Color.WhiteSmoke;
             this.btnCatalogo.IconSize = 50;
             this.btnCatalogo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCatalogo.Location = new System.Drawing.Point(0, 302);
+            this.btnCatalogo.Location = new System.Drawing.Point(0, 242);
             this.btnCatalogo.Name = "btnCatalogo";
             this.btnCatalogo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnCatalogo.Rotation = 0D;
@@ -265,7 +266,7 @@
             this.btnProductos.IconColor = System.Drawing.Color.WhiteSmoke;
             this.btnProductos.IconSize = 50;
             this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductos.Location = new System.Drawing.Point(0, 242);
+            this.btnProductos.Location = new System.Drawing.Point(0, 182);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnProductos.Rotation = 0D;
@@ -304,6 +305,34 @@
             this.Salir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Salir.UseVisualStyleBackColor = false;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
+            // 
+            // btnReports
+            // 
+            this.btnReports.BackColor = System.Drawing.Color.Transparent;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.FlatAppearance.BorderSize = 0;
+            this.btnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnReports.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnReports.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
+            this.btnReports.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnReports.IconSize = 50;
+            this.btnReports.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.Location = new System.Drawing.Point(0, 302);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnReports.Rotation = 0D;
+            this.btnReports.Size = new System.Drawing.Size(208, 60);
+            this.btnReports.TabIndex = 32;
+            this.btnReports.Text = "Reportes";
+            this.btnReports.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnReports.UseVisualStyleBackColor = false;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // Paciente
             // 
@@ -499,33 +528,34 @@
             this.btnChildFormClose.TabStop = false;
             this.btnChildFormClose.Click += new System.EventHandler(this.Close_Click);
             // 
-            // btnSolicitudProducto
+            // btnSolicitudes
             // 
-            this.btnSolicitudProducto.BackColor = System.Drawing.Color.Transparent;
-            this.btnSolicitudProducto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSolicitudProducto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSolicitudProducto.FlatAppearance.BorderSize = 0;
-            this.btnSolicitudProducto.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnSolicitudProducto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnSolicitudProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
-            this.btnSolicitudProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSolicitudProducto.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnSolicitudProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSolicitudProducto.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSolicitudProducto.IconChar = FontAwesome.Sharp.IconChar.Cubes;
-            this.btnSolicitudProducto.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSolicitudProducto.IconSize = 50;
-            this.btnSolicitudProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSolicitudProducto.Location = new System.Drawing.Point(0, 242);
-            this.btnSolicitudProducto.Name = "btnSolicitudProducto";
-            this.btnSolicitudProducto.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnSolicitudProducto.Rotation = 0D;
-            this.btnSolicitudProducto.Size = new System.Drawing.Size(208, 60);
-            this.btnSolicitudProducto.TabIndex = 33;
-            this.btnSolicitudProducto.Text = "Soli Productos";
-            this.btnSolicitudProducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSolicitudProducto.UseVisualStyleBackColor = false;
-            this.btnSolicitudProducto.Click += new System.EventHandler(this.btnSolicitudesProducto_Click);
+            this.btnSolicitudes.BackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSolicitudes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSolicitudes.FlatAppearance.BorderSize = 0;
+            this.btnSolicitudes.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnSolicitudes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(51)))), ((int)(((byte)(57)))));
+            this.btnSolicitudes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSolicitudes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnSolicitudes.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSolicitudes.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSolicitudes.IconChar = FontAwesome.Sharp.IconChar.ShippingFast;
+            this.btnSolicitudes.IconColor = System.Drawing.SystemColors.Window;
+            this.btnSolicitudes.IconSize = 50;
+            this.btnSolicitudes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudes.Location = new System.Drawing.Point(0, 422);
+            this.btnSolicitudes.Name = "btnSolicitudes";
+            this.btnSolicitudes.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnSolicitudes.Rotation = 0D;
+            this.btnSolicitudes.Size = new System.Drawing.Size(208, 60);
+            this.btnSolicitudes.TabIndex = 35;
+            this.btnSolicitudes.Text = "Solicitudes";
+            this.btnSolicitudes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSolicitudes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSolicitudes.UseVisualStyleBackColor = false;
+            this.btnSolicitudes.Click += new System.EventHandler(this.btnSolicitudes_Click);
             // 
             // MainForm
             // 
@@ -581,11 +611,11 @@
         private System.Windows.Forms.Panel panelDesktopHeader;
         private FontAwesome.Sharp.IconPictureBox btnChildFormClose;
         internal System.Windows.Forms.Label lblCaption;
-        private FontAwesome.Sharp.IconButton btnSolicitudes;
         private FontAwesome.Sharp.IconButton btnReports;
         private FontAwesome.Sharp.IconButton btnSolicitudProducto;
         private FontAwesome.Sharp.IconButton btnProductos;
         private FontAwesome.Sharp.IconButton btnCatalogo;
         private FontAwesome.Sharp.IconButton btnIcCustomer;
+        private FontAwesome.Sharp.IconButton btnSolicitudes;
     }
 }
